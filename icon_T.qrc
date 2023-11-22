@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>logo_sm.png</file>
+    <file>icon_large_group.png</file>
+    <file>icon_group.png</file>
+    <file>icon_T.png</file>
+  </qresource>
+</RCC>

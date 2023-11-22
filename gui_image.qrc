@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>parser_title.png</file>
+    <file>logo_lg.png</file>
+  </qresource>
+</RCC>
