@@ -6,7 +6,7 @@ class gmail_sender:
         self.s_email = sender_email
         self.r_email = receiver_email
         self.pw = sender_password
-        self.server_name = "smtp.gmail.com"
+        self.server_name = ""
         self.server_port = 587
         
         self.msg = EmailMessage()

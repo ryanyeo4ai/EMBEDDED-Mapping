@@ -6,7 +6,7 @@
 #         self.s_email = sender_email
 #         self.r_email = receiver_email
 #         self.pw = sender_password
-#         self.server_name = "smtp.gmail.com"
+#         self.server_name = ""
 #         self.server_port = 587
         
 #         self.msg = EmailMessage()
@@ -33,8 +33,7 @@
 #     def smtp_disconect(self):
 #         self.smtp.close()
         
-# # test_email = gmail_sender("HancomTasking@gmail.com", "inchoon.yeo@gmail.com", "Tasking123!" )
-# test_email = gmail_sender("paul.yeo94@gmail.com", "inchoon.yeo@gmail.com", "kissme!004" )
+
 # test_email.msg_get("test_title","test_msg")    
 # test_email.smtp_connect_send()
 # test_email.smtp_disconect()
@@ -45,9 +44,9 @@
 
 #     def __init__(self):
 #         self.port = 465
-#         self.smtp_server_domain_name = "smtp.gmail.com"
-#         self.sender_mail = "HancomTasking@gmail.com"
-#         self.password = "Tasking123!"
+#         self.smtp_server_domain_name = ""
+#         self.sender_mail = ""
+#         self.password = ""
 
 #     def send(self, emails, subject, content):
 #         ssl_context = ssl.create_default_context()
@@ -64,7 +63,7 @@
 #     # mails = input("Enter emails: ").split()
 #     # subject = input("Enter subject: ")
 #     # content = input("Enter content: ")
-#     mails = "inchoon.yeo@gmail.com"
+#     mails = ""
 #     subject = "test title"
 #     content = "test content"
 #     mail = Mail()
@@ -73,9 +72,9 @@
 import smtplib, ssl
 from email.message import EmailMessage
 
-my_email = "HancomTasking@gmail.com"
-my_password = "Tasking123!"
-other_email = "inchoon.yeo@gmail.com"
+my_email = ""
+my_password = ""
+other_email = ""
 
 email = EmailMessage()
 email['from'] = my_email
